@@ -1,5 +1,50 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Siddhant Tiwari</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="wrapper">
+        <!------warper----------->
+        <header class="header"><h1>Siddhant Tiwari's Labs For INST377</h1></header>
+        <div class="container">
+            <!------container----------->
+            <div class="left_section box">
+                <!------left side-----------> 
+                <h2>Album names</h2>
+                <ol class="box">
+                <li>J Cole - The Off-Season</li>
+                <li>Drake - If You're Reading This Its Too Late</li>
+                <li>Young Thug- Slime Season 3</li>
+                <li>G Herbo - 25</li>
+                <li>Westside Boogie - Everything for Sale</li>
+                </ol>  
+            </div>
+            <div class="right_section box"> <!-------right side-->
+                <h2>Image Carousel</h2>
+                <div class="carousel">
+                    <button class="prev">Prev</button>
+                    <div class="slides"> <!---image box-->
+                        <div class="carousel_item visible"><img src='images/sunset1.jpg'/></div>
+                        <div class="carousel_item hidden"><img src='images/sunset2.jpg'/></div>
+                        <div class="carousel_item hidden"><img src='images/sunset3.jpg'/></div>
+                        <div class="carousel_item hidden"><img src='images/sunset4.jpg'/></div>
+                    </div>
+                    <button class="next">Next</button>
+                </div>
+                    <div class="box">
+                    <p>These are different images of sunsets created digitally.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+<footer class="footer">
+    My Github account name <a href="https://github.com/Siddhantz/INST377-Lab-Work">My Github Account</a>
+</footer>
+<script src="script.js" ></script>
+</body>
+</html>
