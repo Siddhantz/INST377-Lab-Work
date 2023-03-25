@@ -319,7 +319,7 @@ form input {
     /* Rules in here will only apply when a screen is the correct size */
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
-      background-color: rgba(204, 8, 162, 0.65);
+      background-color: rgb(170,167,204, .6);
       flex-direction: column;
     }
 
