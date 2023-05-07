@@ -86,7 +86,7 @@ function getRandomIntInclusive(min, max) {
 
     const storedData = localStorage.getItem('storedData');
     let parsedData = JSON.parse(storedData);
-    if(parsedData?.lenght > 0){
+    if(parsedData?.length > 0){
       generateListButton.classList.remove('hidden');
     }
 
